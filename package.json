@@ -2,14 +2,18 @@
   "name": "ignite-node-desafio-02",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "tsx": "^3.12.7"
   }
 }
